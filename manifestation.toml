@@ -1,6 +1,6 @@
 id = "macrottie.exceptions"
 name = "exceptions"
-description = "Simple mod to allow friends to join even when your lobby is full."
+description = "Simple mod to allow steam friends to join even when your lobby is full."
 version = "1.0.0"
 homepage = "https://github.com/mmccall0813/exceptions"
 author = "macrottie"
