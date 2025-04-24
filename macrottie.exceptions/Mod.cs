@@ -9,7 +9,7 @@ public class Mod : IMod {
     public Mod(IModInterface modInterface) {
         this.Config = modInterface.ReadConfig<Config>();
         
-        modInterface.RegisterScriptMod(new PlayerPatcher());
+        modInterface.RegisterScriptMod(new NetworkPatcher());
     }
 
     public void Dispose() {

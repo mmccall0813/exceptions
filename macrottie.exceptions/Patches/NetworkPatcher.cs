@@ -5,7 +5,7 @@ using GDWeave.Modding;
 
 namespace macrottie.exceptions.Patches;
 
-public class PlayerPatcher : IScriptMod
+public class NetworkPatcher : IScriptMod
 {
     public bool ShouldRun(string path) => path == "res://Scenes/Singletons/SteamNetwork.gdc";
 
